@@ -3,5 +3,18 @@ module.exports = {
   theme: {
     extend: {},
   },
+  variants: {},
   plugins: [],
+  corePlugins: {
+    preflight: false,
+  },
+  extend: {
+    theme: {
+      extend: {},
+    },
+    plugins: [],
+    components: {},
+
+    classNames: {},
+  },
 }
