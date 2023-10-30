@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Root from './pages/root'
 import { GeneralContextProvider } from './contexts/GeneralContext'
 import Test from './pages/test'
+import Home from './pages/Home'
 function App() {
   const router = createBrowserRouter([
     {
@@ -12,7 +13,7 @@ function App() {
         </GeneralContextProvider>
       ),
       // errorElement: <NotFound />,
-      children: [{ path: '/', element: <Test /> }],
+      children: [{ path: '/', element: <Home /> }],
     },
   ])
 
