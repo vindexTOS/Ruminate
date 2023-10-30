@@ -1,7 +1,3 @@
-import React from 'react'
-
-const NavBar = () => {
-  return <nav>Nav </nav>
+export default function NavBar() {
+  return <nav className='bg-brand-green'>Nav</nav>
 }
-
-export default NavBar

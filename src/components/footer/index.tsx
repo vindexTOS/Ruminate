@@ -1,7 +1,3 @@
-import React from 'react'
-
-const Footer = () => {
-  return <footer>Footer</footer>
+export default function Footer() {
+  return <footer className="bg-brand-green">Footer</footer>;
 }
-
-export default Footer
