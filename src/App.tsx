@@ -1,23 +1,27 @@
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Root from './pages/root'
-import { GeneralContextProvider } from './contexts/GeneralContext'
-import Test from './pages/test'
-import Home from './pages/Home'
-function App() {
+ 
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { GeneralContextProvider } from "./contexts/GeneralContext";
+import Home from "./pages/home";
+import Root from "./pages/root";
+
+export default function App() {
+ 
+ 
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: "/",
       element: (
         <GeneralContextProvider>
           <Root />
         </GeneralContextProvider>
       ),
       // errorElement: <NotFound />,
-      children: [{ path: '/', element: <Home /> }],
+ 
+      children: [{ index: true, element: <Home /> }],
+ 
+  
     },
-  ])
+  ]);
 
-  return <RouterProvider router={router} />
+  return <RouterProvider router={router} />;
 }
-
-export default App

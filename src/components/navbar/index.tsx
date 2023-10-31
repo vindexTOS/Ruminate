@@ -1,12 +1,10 @@
-import React from 'react'
-import brandLogo from '../../assets/images/brand-logo.svg'
+ 
+import brandLogo from "../../assets/images/brand-logo.svg";
 
-const NavBar = () => {
+export default function NavBar() {
   return (
-    <nav className="flex min-h-[86px] bg-brand-green px-[72px] py-[30px]">
-      <img src={brandLogo} />
-    </nav>
-  )
+    <nav className="bg-brand-green px-[72px] py-[30px]">
+      <img alt="Feedback logo" src={brandLogo} />
+    </nav>);
+ 
 }
-
-export default NavBar
