@@ -8,8 +8,13 @@ module.exports = {
         'brand-brown': '#38342a',
         'brand-green': '#0f7b41',
         'brand-yellow': '#ffba49',
-      }
+       }
+ 
     },
   },
+  variants: {},
   plugins: [],
+  corePlugins: {
+    preflight: false,
+  },
 }
