@@ -1,9 +1,9 @@
-export default function Footer() {
+export default function SectionTwo() {
   return (
-    <footer className="bg-brand-green min-h-[600px] z-[60] border-brand-brown border-t-[24px] -mt-[5%] z-50 skew-y-0 p-16 py-32">
-      <div className="flex flex-col gap-6 text-neutral-50">
-        <h1 className="text-6xl">Footer</h1>
-        <p>z-index: 50</p>
+    <div className="bg-brand-green min-h-[1358px] skew-y-[5deg] -mt-[10%] p-16 py-32 border-t-[24px] border-brand-black z-20">
+      <div className="-skew-y-[5deg] flex flex-col gap-6">
+        <h1 className="text-6xl">Section Two</h1>
+        <p>z-index: 20</p>
         <p>
           Lorem libero quod consequuntur provident natus voluptatum! Perferendis
           cum officia ad reprehenderit repellat! Eos deserunt error perspiciatis
@@ -12,6 +12,6 @@ export default function Footer() {
           quibusdam ipsa eveniet maxime similique? Illum omnis
         </p>
       </div>
-    </footer>
+    </div>
   );
 }

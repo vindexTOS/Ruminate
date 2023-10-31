@@ -1,9 +1,9 @@
-export default function Footer() {
+export default function SectionThree() {
   return (
-    <footer className="bg-brand-green min-h-[600px] z-[60] border-brand-brown border-t-[24px] -mt-[5%] z-50 skew-y-0 p-16 py-32">
-      <div className="flex flex-col gap-6 text-neutral-50">
-        <h1 className="text-6xl">Footer</h1>
-        <p>z-index: 50</p>
+    <div className="bg-brand-blue min-h-[2774px] -skew-y-[4deg] -mt-[10%] p-16 py-32 border-t-[24px] border-brand-black z-30">
+      <div className="skew-y-[4deg] flex flex-col gap-6">
+        <h1 className="text-6xl">Section Three</h1>
+        <p>z-index: 30</p>
         <p>
           Lorem libero quod consequuntur provident natus voluptatum! Perferendis
           cum officia ad reprehenderit repellat! Eos deserunt error perspiciatis
@@ -12,6 +12,6 @@ export default function Footer() {
           quibusdam ipsa eveniet maxime similique? Illum omnis
         </p>
       </div>
-    </footer>
+    </div>
   );
 }
