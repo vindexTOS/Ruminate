@@ -9,7 +9,6 @@ module.exports = {
         'brand-green': '#0f7b41',
         'brand-yellow': '#ffba49',
        }
- 
     },
   },
   variants: {},
