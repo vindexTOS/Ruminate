@@ -6,7 +6,9 @@ export default function NavBar() {
   return (
     <nav className="bg-brand-green px-[72px] py-[30px] flex justify-between">
       <div>
+        <Link to='/'>
       <img alt="Feedback logo" src={brandLogo} />
+      </Link>
       </div>
       <div className="flex gap-5">
         <div>
