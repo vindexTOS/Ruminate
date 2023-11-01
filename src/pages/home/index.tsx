@@ -1,9 +1,9 @@
-import Hero from "../../components/hero";
-import HeroText from "../../components/heroText";
-import SectionOne from "../../components/sectionOne";
-import SectionTwo from "../../components/sectionTwo";
-import SectionThree from "../../components/sectionThree";
-import SectionFour from "../../components/sectionFour";
+import Hero from "./hero";
+import HeroText from "./heroText";
+import SectionOne from "./sectionOne";
+import SectionTwo from "./sectionTwo";
+import SectionThree from "./sectionThree";
+import SectionFour from "./sectionFour";
 
 export default function Home() {
   return (

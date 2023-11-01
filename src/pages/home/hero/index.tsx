@@ -1,4 +1,4 @@
-import heroImage from '../../assets/images/hero.jpeg';
+import heroImage from '../../../assets/images/hero.jpeg';
 
 export default function Hero() {
   const style = {
